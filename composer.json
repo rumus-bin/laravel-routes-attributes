@@ -1,5 +1,5 @@
 {
-  "name": "rumus_bin/route-attributes",
+  "name": "RumusBin/LaravelAttributesRoute",
   "description": "Laravel attributes route",
   "minimum-stability": "dev",
   "license": "MIT",
