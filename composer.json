@@ -20,12 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "RumusBin\\AttributesRouter": "src/"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Spatie\\RouteAttributes\\Tests\\": "tests"
+      "RumusBin\\AttributesRouter\\": "src/"
     }
   },
   "extra": {
