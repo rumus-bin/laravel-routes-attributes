@@ -1,6 +1,6 @@
 {
-  "name": "rumus_bin/route-attributes-maper",
-  "description": "Laravel attributes route mapper",
+  "name": "rumus_bin/route-attributes",
+  "description": "Laravel attributes route",
   "minimum-stability": "dev",
   "license": "MIT",
   "authors": [
