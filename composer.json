@@ -27,5 +27,12 @@
     "psr-4": {
       "Spatie\\RouteAttributes\\Tests\\": "tests"
     }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "RumusBin\\AttributesRouter\\AttributesRouterProvider"
+      ]
+    }
   }
 }
