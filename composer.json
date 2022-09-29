@@ -1,0 +1,31 @@
+{
+  "name": "rumus_bin/route-attributes-maper",
+  "description": "Laravel attributes route mapper",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "rumus_bin",
+      "email": "rumusbin@gmail.com",
+      "homepage": "https://github.com/RumusBin"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "illuminate/contracts": "^8.70|^9.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^6.0|^7.0",
+    "phpunit/phpunit": "^9.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "RumusBin\\AttributesRouter": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Spatie\\RouteAttributes\\Tests\\": "tests"
+    }
+  }
+}
