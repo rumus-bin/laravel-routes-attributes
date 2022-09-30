@@ -5,12 +5,12 @@ namespace RumusBin\AttributesRouter;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
-use RumusBin\AttributesRouter\src\RoteAttributes\Fallback;
-use RumusBin\AttributesRouter\src\RoteAttributes\Route;
-use RumusBin\AttributesRouter\src\RoteAttributes\RouteAttribute;
-use RumusBin\AttributesRouter\src\RoteAttributes\ScopeBindings;
-use RumusBin\AttributesRouter\src\RoteAttributes\Where;
-use RumusBin\AttributesRouter\src\RoteAttributes\WhereAttribute;
+use RumusBin\AttributesRouter\RoteAttributes\Fallback;
+use RumusBin\AttributesRouter\RoteAttributes\Route;
+use RumusBin\AttributesRouter\RoteAttributes\RouteAttribute;
+use RumusBin\AttributesRouter\RoteAttributes\ScopeBindings;
+use RumusBin\AttributesRouter\RoteAttributes\Where;
+use RumusBin\AttributesRouter\RoteAttributes\WhereAttribute;
 use SplFileInfo;
 use Symfony\Component\Finder\Finder;
 
