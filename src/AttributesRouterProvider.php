@@ -32,7 +32,7 @@ class AttributesRouterProvider extends ServiceProvider
         collect($this->getRouteDirectories())->each(
             function (string|array $directory, string|int $namespace) use ($routerRegister) {
                 if (is_array($directory)) {
-                    $options = Arr::except($directory['namespace'], ['namespace', 'base_path']);
+                    $options = Arr::except($directory, ['namespace', 'base_path']);
 
                     $routerRegister->useNamespace($directory['namespace'] ?? app()->getNamespace())
                         ->useBasePath(
