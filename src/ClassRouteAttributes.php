@@ -3,15 +3,15 @@
 namespace RumusBin\AttributesRouter;
 
 use ReflectionClass;
-use RumusBin\AttributesRouter\src\RoteAttributes\Domain;
-use RumusBin\AttributesRouter\src\RoteAttributes\DomainFromConfig;
-use RumusBin\AttributesRouter\src\RoteAttributes\Group;
-use RumusBin\AttributesRouter\src\RoteAttributes\Middleware;
-use RumusBin\AttributesRouter\src\RoteAttributes\Prefix;
-use RumusBin\AttributesRouter\src\RoteAttributes\Resource;
-use RumusBin\AttributesRouter\src\RoteAttributes\RouteAttribute;
-use RumusBin\AttributesRouter\src\RoteAttributes\ScopeBindings;
-use RumusBin\AttributesRouter\src\RoteAttributes\Where;
+use RumusBin\AttributesRouter\RoteAttributes\Domain;
+use RumusBin\AttributesRouter\RoteAttributes\DomainFromConfig;
+use RumusBin\AttributesRouter\RoteAttributes\Group;
+use RumusBin\AttributesRouter\RoteAttributes\Middleware;
+use RumusBin\AttributesRouter\RoteAttributes\Prefix;
+use RumusBin\AttributesRouter\RoteAttributes\Resource;
+use RumusBin\AttributesRouter\RoteAttributes\RouteAttribute;
+use RumusBin\AttributesRouter\RoteAttributes\ScopeBindings;
+use RumusBin\AttributesRouter\RoteAttributes\Where;
 
 class ClassRouteAttributes
 {
