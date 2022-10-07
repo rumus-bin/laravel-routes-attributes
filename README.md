@@ -16,6 +16,37 @@ package. You can freely use all the program code of this package for your own pu
 under your own responsibility. Support, security and updating of this package is not guaranteed in
 any way by the author.
 
+After install publish config with artisan command:
+
+`php artisan vendor:publish --provider="RumusBin\AttributesRouter\AttributesRouterProvider" --tag="config"`
+this will publish config class:
+`
+return [
+/*
+     *  Automatic registration of routes will only happen if this setting is `true`
+*/
+'enabled' => true,
+
+    /*
+     * Controllers in these directories that have routing attributes
+     * will automatically be registered.
+     *
+     * Optionally, you can specify group configuration by using key/values
+     */
+    'directories' => [
+        app_path('Http/Controllers'),
+
+        app_path('Http/Controllers/Web') => [
+            'middleware' => ['web']
+        ],
+        
+        app_path('Http/Controllers/Api') => [
+            'prefix' => 'api',
+            'middleware' => 'api'
+        ],
+    ],
+];
+`
 
 [Spatie]: <https://github.com/spatie>
 [laravel-route-attributes]: <https://github.com/spatie/laravel-route-attributes>

@@ -12,7 +12,7 @@ class AttributesRouterProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->publishes(
                 [
-                    __DIR__ . '/../config/attribute-router.php'
+                    __DIR__ . '/../config/attribute-router.php' => config_path('attribute-router.php')
                 ],
                 'config'
             );
